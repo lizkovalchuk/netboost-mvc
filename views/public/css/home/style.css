@@ -1,0 +1,183 @@
+/*	STYLE SHEET
+------------------------
+	Colors:
+	Turquoise = #328a89
+	Yellow = #ffda7a
+	Grey = #e6e6e6
+
+	FONT FAMILIES CSS RULES:
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,600i|Raleway:400,700');
+
+/*HEADER*/
+.hide {
+  position:absolute;
+  left:-10000px;
+}
+
+
+html{
+	font-size: 16px;
+}
+
+header{
+	border-bottom: 5px solid #328a89;
+}
+
+.logo-img{
+	width:300px;
+
+}
+
+.logo{
+	padding-left: 10px;
+}
+
+.nav__thin{
+	background-color: #ffda7a;
+	margin-bottom: 15px;
+	height: 100%;
+}
+
+.navbar-nav.navbar-right:last-child{
+	margin-right: 0px !important;
+}
+
+#login-nav a{
+	font-weight: bold;
+}
+
+nav a{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: #000000;
+}
+a:hover{
+	background-color: transparent !important;
+	color: #000000;
+
+}
+
+.right__nav {
+	display: inline-block !important;
+}
+
+.right__nav a{
+	color: #328a89;
+}
+
+.right__nav a:hover{
+	color: #ffffff;
+	
+	
+}
+
+.main__nav{
+	text-transform:uppercase;
+	text-align: center;	
+}
+
+.main__nav a:hover{
+	color: #ffda7a;
+	font-weight: 700;
+
+
+}
+
+.main__nav a:active{
+	color:red;
+}
+.nav__ul{
+	padding-top: 70px;
+}
+/*END__HEADER*/
+
+/*MAIN__START*/
+/*div__right__1*/
+.yellow__div{
+	margin: 0 auto;
+}
+
+
+.img__top{
+	width:200px;
+	padding: 15px;
+
+}
+
+
+.button{
+	border: 3px solid #328a89;
+	border-radius: 10px;
+	padding: 5px;
+	color: #328a89;
+	margin: 5px;
+	font-size: 21px;
+
+}
+.button a:hover{
+	color: white;
+
+}
+
+/*left__div__2*/
+.img{
+	width:200px;
+	padding: 15px;
+	display: inline-block;
+	align-items: center;
+}
+
+.left__div__2__img{
+	margin: 20px auto;
+	width: 400px;
+}
+
+.left__div__2{
+	justify-items: center;
+}
+
+
+.flex{
+	display: flex;
+	align-items: center;
+}
+
+
+
+/*footer*/
+footer{
+	background-color: #e6e6e6; 
+
+}
+
+.footer i{
+	color: #000;
+}
+.fa{
+	margin:.2em;
+	font-size: 1.5em !important;
+}
+.fa-instagram{
+	margin-left:40px;
+}
+.social_media{
+	margin:10px auto;
+}
+/*.footer__nav{*/
+	/*margin:20px auto;*/
+/*}*/
+
+
+
+
+/*MEDIA QUERY*/
+@media all and (max-width : 600px){
+	.img{
+		max-width: 60% !important;
+	}
+}
+

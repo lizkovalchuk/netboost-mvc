@@ -1,0 +1,25 @@
+.center-content{
+    text-align: center;
+}
+#h1-c{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 4em;
+}
+#table-c{
+    margin-left: 1em;
+    max-width: 95%;
+}
+/*custom buttons*/
+
+.c-btn{
+    border: 1px solid #328a89;
+    background-color: #fff;
+    color: #328a89;
+    font-family: Raleway!important;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 4em;
+    margin-top: 2em;
+}
+.c-btn:hover {background-color: #ffda7a!important}

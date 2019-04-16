@@ -1,0 +1,241 @@
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,600i|Raleway:400,700');
+
+/* BASIC THEME CONFIGURATION */
+body {
+    font-family: 'Montserrat', sans-serif!important;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size:13px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+main{
+    padding-top: 60px;
+    padding-left: 210px;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#dash-logo {
+
+    width: 100px;
+    height: 100px;
+}
+
+.notify {
+    font-size: 40px;
+    margin-top: 26px;
+    color: #ffda7a;
+}
+
+/*Helpers*/
+
+.centered {
+	text-align: center;
+}
+
+.mt {
+	margin-top: 25px;
+}
+
+/* log out */
+
+ul.top-menu > li > .logout {
+	color: #328a89;
+	font-size: 12px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 2px solid #ffda7a !important;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+
+/*sidebar navigation*/
+
+aside {
+    background: #ffda7a;
+}
+
+#sidebar {
+    width: 210px;
+    min-height: 100%;
+    position: absolute;
+    background: #ffda7a;
+}
+
+#sidebar h5 {
+	color: #328a89;
+	font-weight: 700;
+}
+
+#sidebar ul li {
+    position: relative;
+}
+
+#sidebar .sub-menu > .sub li  {
+    padding-left: 32px;
+}
+
+#sidebar .sub-menu > .sub li:last-child {
+    padding-bottom: 10px;
+}
+
+/*left navigation icon*/
+
+ul.sidebar-menu , ul.sidebar-menu li ul.sub{
+    margin: -2px 0 0;
+    padding: 0;
+}
+
+ul.sidebar-menu {
+    margin-top: 120px;
+}
+
+ul.sidebar-menu li ul.sub li a:hover {
+	color: white;
+	background: transparent;
+}
+
+ul.sidebar-menu li{
+    margin-bottom: 5px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+ul.sidebar-menu li.sub-menu{
+    line-height: 15px;
+}
+
+ul.sidebar-menu li a{
+    color: #328a89;
+    text-decoration: none;
+    display: block;
+    padding: 15px 0 15px 10px;
+    font-size: 12px;
+    outline: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
+    background: #328a89;
+    color: #fff;
+    display: block;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* green header */
+
+.header{
+    height: 45px;
+    padding: 0 15px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1002;
+}
+
+.green-bg {
+    background: #328a89;
+    border-bottom: 1px solid #c9aa5f;
+}
+
+a.logo {
+    float: left;
+    text-transform: uppercase;
+    margin-top: -25px;
+}
+
+
+/*notification*/
+
+ul.top-menu > li > a {
+    color: #666666;
+    font-size: 16px;
+    -webkit-border-radius: 4px;
+    padding: 2px 6px;
+    margin-right: 15px;
+}
+
+/*--sidebar toggle---*/
+
+.sidebar-toggle-box {
+    float: left;
+    padding-right: 15px;
+    margin-top: 10px;
+    color: #ffda7a;
+}
+
+.sidebar-toggle-box .fa-bars {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.center-content{
+    text-align: center;
+}
+
+
+/*--buttons---*/
+.c-btn{
+    border: 1px solid #328a89;
+    background-color: #fff;
+    color: #328a89;
+    font-family: Raleway!important;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 4em;
+    margin-top: 2em;
+}
+.c-btn:hover {background-color: #ffda7a!important}
+
+.notification{
+    background-color: #ac2925;
+}
+
+
+
+/* media query */
+
+@media (max-width: 480px) {
+
+    main {
+        padding-top: 90px;
+        padding-left: 0px !important;
+    }
+
+    ul.top-menu > li > .logout {
+        color: #328a89;
+        font-size: 12px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border: 2px solid #ffda7a !important;
+        margin-left: 10px;
+        margin-bottom: 2px;
+        margin-top: 0px;
+    }
+
+
+}
+
+

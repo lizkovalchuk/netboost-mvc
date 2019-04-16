@@ -1,0 +1,44 @@
+/* chat data */
+
+. mainChatBox {
+
+    width: 50%;
+}
+
+/*custom buttons*/
+
+.c-btn{
+    border: 1px solid #328a89;
+    background-color: #fff;
+    color: #328a89;
+    font-family: Raleway!important;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 4em;
+    margin-top: 2em;
+}
+.c-btn:hover {
+    background-color: #ffda7a!important
+}
+
+.override__btn{
+    margin-left: 5px;
+    padding: 5px;
+
+}
+
+/*placeholder font*/
+::-webkit-input-placeholder {
+    font-family: Raleway!important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-family: Raleway!important;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+    font-family: Raleway!important;
+}
+
+select{
+    font-family: Raleway!important;
+}

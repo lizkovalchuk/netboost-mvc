@@ -1,0 +1,53 @@
+#timeline{
+ height: 300px;
+    width: 460px;
+    margin-top: 7em;
+}
+.center-content{
+    text-align: center;
+}
+#h1-ms{
+    margin-top: 1em;
+    /*margin-bottom: 0.5em;*/
+    font-size: 4em;
+}
+#h1-blurb{
+    color: red;
+}
+#h1-container{
+    margin-bottom: -15px;
+}
+#piechart{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 5em;
+}
+#chart-container{
+    margin-top: 2em;
+}
+
+@media only screen and (max-width: 1170px) {
+    .center-content-blg{
+        text-align: center;
+    }
+    #piechart>div{
+        text-align:center;
+    }
+    #piechart>div>div{
+        position:static !important;
+    }
+}
+
+/*custom buttons*/
+
+/*.c-btn{*/
+    /*border: 1px solid #328a89;*/
+    /*background-color: #fff;*/
+    /*color: #328a89;*/
+    /*font-family: Raleway!important;*/
+    /*border-radius: 10px;*/
+    /*text-align: center;*/
+    /*margin-bottom: 4em;*/
+    /*margin-top: 2em;*/
+/*}*/
+/*.c-btn:hover {background-color: #ffda7a!important}*/

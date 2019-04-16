@@ -1,0 +1,71 @@
+/*	STYLE SHEET
+------------------------
+	Colors:
+	Turquoise = #328a89
+	Yellow = #ffda7a
+	Grey = #e6e6e6
+
+	FONT FAMILIES CSS RULES:
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
+*/
+
+.search_div{
+    margin-top: 30px;
+}
+
+.input{
+    margin: 25px;
+}
+
+.heading-left{
+    margin-left: 40px;
+}
+
+.outline{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: solid 2px #328a89;
+
+}
+
+.override__btn{
+    padding: 5px;
+    margin-bottom: 15px;
+
+}
+
+.btn__div {
+
+    margin: 20px 5px;
+}
+
+.margin-left-image {
+    margin: 10px 10px;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 790px) {
+    .margin_left {
+        margin: 0 25px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .md {
+        font-size: 20px;
+
+    }
+
+
+}
+
+
+

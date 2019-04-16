@@ -1,0 +1,57 @@
+/*	STYLE SHEET
+------------------------
+	Colors:
+	Turquoise = #328a89
+	Yellow = #ffda7a
+	Grey = #e6e6e6
+
+	FONT FAMILIES CSS RULES:
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
+*/
+
+
+/*PROJECTS*/
+
+h3{
+    margin-left: 20px;
+    padding-top: 25px;
+}
+
+.details-margin-bottom{
+    margin-bottom: 30px;
+}
+
+.margin_left{
+    margin-left: 30px;
+}
+
+.content-div {
+    margin-left: 20px;
+}
+
+.buttons-div{
+
+    margin-top: 20px;
+
+}
+
+.override__btn{
+    margin-left: 5px;
+    padding: 5px;
+
+}
+
+
+.outline{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: solid 2px #328a89;
+}
+
+.errMsg{
+    color: #B01302;
+    clear: both;
+    margin-top: 15px;
+
+}

@@ -1,0 +1,64 @@
+label{
+    width: 200px;
+    font-family: Raleway;
+    padding-left: 7px;
+    border-bottom: none;
+}
+
+legend {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: none;
+    font-size: 20px;
+}
+
+
+form {
+    margin: 15px;
+}
+
+/* by bootstrap default fieldset width is 100%
+	   you can adjust this if it's too wide
+	   make sure it's in percentages not pixels.*/
+fieldset {
+    /*width: % ;*/
+    border: 2px solid #ffda7a;
+    margin: 5px;
+    padding: 30px;
+}
+
+/*placeholder font*/
+::-webkit-input-placeholder {
+    font-family: Raleway!important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-family: Raleway!important;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+    font-family: Raleway!important;
+}
+
+select{
+    font-family: Raleway!important;
+}
+
+/*custom inputs*/
+.c-input{
+    border: 1px solid #328a89;
+    border-radius: 0!important;
+}
+
+/*custom buttons*/
+.c-btn{
+    border: 1px solid #328a89;
+    background-color: #fff;
+    color: #328a89;
+    font-family: Raleway!important;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+.c-btn:hover {background-color: #ffda7a!important}

@@ -1,0 +1,13 @@
+.yeg-btn{
+    border: 1px solid #328a89;
+    background-color: #fff;
+    color: #328a89;
+    font-family: Raleway!important;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+.yeg-btn:hover {background-color: #ffda7a!important}
+
+
